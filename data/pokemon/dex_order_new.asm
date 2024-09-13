@@ -2,6 +2,7 @@
 
 NewPokedexOrder:
 	table_width 1, NewPokedexOrder
+	db SKEDDLE
 	db CHIKORITA
 	db BAYLEEF
 	db MEGANIUM
@@ -227,7 +228,6 @@ NewPokedexOrder:
 	db KABUTOPS
 	db AERODACTYL
 	db SNORLAX
-	db BULBASAUR
 	db IVYSAUR
 	db VENUSAUR
 	db CHARMANDER

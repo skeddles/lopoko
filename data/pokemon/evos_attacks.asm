@@ -14,20 +14,23 @@ SECTION "Evolutions and Attacks", ROMX
 
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
-BulbasaurEvosAttacks:
-	db EVOLVE_LEVEL, 16, IVYSAUR
+SkeddleEvosAttacks:
+	db EVOLVE_LEVEL, 99, IVYSAUR
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 4, GROWL
-	db 7, LEECH_SEED
-	db 10, VINE_WHIP
-	db 15, POISONPOWDER
-	db 15, SLEEP_POWDER
-	db 20, RAZOR_LEAF
-	db 25, SWEET_SCENT
-	db 32, GROWTH
-	db 39, SYNTHESIS
-	db 46, SOLARBEAM
+	db 1, GUST
+	db 5, SAND_ATTACK
+	db 9, TACKLE
+	db 11, DEFENSE_CURL
+	db 12, REST
+	db 15, WHIRLWIND
+	db 19, BITE
+	db 26, HYPER_BEAM
+	db 21, QUICK_ATTACK
+	db 29, WING_ATTACK
+	db 31, SCREECH
+	db 37, AGILITY
+	db 47, MIRROR_MOVE
+	db 99, FLY
 	db 0 ; no more level-up moves
 
 IvysaurEvosAttacks:

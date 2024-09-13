@@ -18,7 +18,6 @@ AlphabeticalPokedexOrder:
 	db BELLSPROUT
 	db BLASTOISE
 	db BLISSEY
-	db BULBASAUR
 	db BUTTERFREE
 	db CATERPIE
 	db CELEBI
@@ -198,6 +197,7 @@ AlphabeticalPokedexOrder:
 	db SHELLDER
 	db SHUCKLE
 	db SKARMORY
+	db SKEDDLE
 	db SKIPLOOM
 	db SLOWBRO
 	db SLOWKING
